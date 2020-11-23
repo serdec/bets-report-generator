@@ -16,9 +16,6 @@ public class ReportsCreator {
     }
     public void processBets(List<Bet> bets){
 
-        /*
-         * Uncomment the following line to ask the user to chose the ouptut format
-         */
         SelectionLiabilityByCurrency selectionLiabilityByCurrency = SelectionLiabilityByCurrency.createSelectionLiabilityByCurrency();
         TotalLiabilityByCurrency totalLiabilityByCurrency = TotalLiabilityByCurrency.createTotalLiabilityByCurrency();
 
